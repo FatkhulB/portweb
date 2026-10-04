@@ -10,13 +10,13 @@ const C={
   location:'Surabaya, East Java, Indonesia',
 
   /* FOTO: cukup simpan foto Anda sebagai assets/foto.jpg (tanpa edit apa pun). Nama lain? tulis di sini, mis. 'assets/saya.png' */
-  photo:'',
+  photo:'assets/foto.jpg',
 
   /* LINK PORTOFOLIO LENGKAP: ganti [YOUR URL] dengan link Anda. Contoh: 'https://portofolio-saya.com' */
-  portfolio:'[YOUR URL]',
+  portfolio:'https://canva.link/33pg7e130rqlvob',
 
-  /* LINK DOWNLOAD CV (sudah terisi) */
-  cv:'https://canva.link/scmr44q46y5uc4i',
+  /* LINK DOWNLOAD CV: file PDF ada di assets/ */
+  cv:'assets/cv-fatkhul-barri.pdf',
 
   /* SOSIAL MEDIA: ganti [YOUR URL] dengan link. Mau hapus? hapus barisnya.
      Mau tambah? salin satu baris, ubah nama dan link. */
@@ -37,17 +37,14 @@ const EXP=[
  {date:'October 2024 – February 2025',org:'Ini Lho ITS! 2025 x Forda Tuban',role:'IT Staff',points:['Planning and maintaining equipment for events.','Compiling a list of required equipment and ensuring its availability.','Checking systems and servers, maintaining a stable network for the venue.']}
 ];
 
-/* SERTIFIKAT (8 slot). Gambar: simpan sebagai assets/certs/1.jpg ... 8.jpg sesuai urutan (tanpa edit kode).
-   Slot kosong: ganti teks [YOUR ...]. link = link kredensial (kosongkan jika tidak ada). */
+/* SERTIFIKAT. Gambar: simpan sebagai assets/certs/1.jpg ... sesuai urutan (tanpa edit kode).
+   link = link kredensial (kosongkan jika tidak ada). */
 const CERT=[
- {title:'Belajar Dasar Data Science',issuer:'Dicoding Indonesia',year:'2026',tag:'data',image:'',link:''},
- {title:'Belajar Dasar Structured Query Language (SQL)',issuer:'Dicoding Indonesia',year:'2026',tag:'sql',image:'',link:''},
- {title:'Memulai Pemrograman dengan Python',issuer:'Dicoding Indonesia',year:'2026',tag:'python',image:'',link:''},
- {title:'Belajar Strategi Pengembangan Diri',issuer:'Dicoding Indonesia',year:'2026',tag:'soft',image:'',link:''},
- {title:'Introduction to Financial Literacy',issuer:'Dicoding Indonesia',year:'2026',tag:'finance',image:'',link:''},
- {title:'[YOUR CERTIFICATE 6 TITLE]',issuer:'[YOUR ISSUER]',year:'[YEAR]',tag:'other',image:'',link:''},
- {title:'[YOUR CERTIFICATE 7 TITLE]',issuer:'[YOUR ISSUER]',year:'[YEAR]',tag:'other',image:'',link:''},
- {title:'[YOUR CERTIFICATE 8 TITLE]',issuer:'[YOUR ISSUER]',year:'[YEAR]',tag:'other',image:'',link:''}
+ {title:'Belajar Dasar Data Science',issuer:'Dicoding Indonesia',year:'2026',tag:'data',image:'',link:'https://dicoding.com/certificates/KEXLQRVKRPG2'},
+ {title:'Belajar Dasar Structured Query Language (SQL)',issuer:'Dicoding Indonesia',year:'2026',tag:'sql',image:'',link:'https://dicoding.com/certificates/98XW0M9M0XM3'},
+ {title:'Memulai Pemrograman dengan Python',issuer:'Dicoding Indonesia',year:'2026',tag:'python',image:'',link:'https://dicoding.com/certificates/KEXLQRK5RPG2'},
+ {title:'Belajar Strategi Pengembangan Diri',issuer:'Dicoding Indonesia',year:'2026',tag:'soft',image:'',link:'https://dicoding.com/certificates/QLZ99LJL9Z5D'},
+ {title:'Introduction to Financial Literacy',issuer:'Dicoding Indonesia',year:'2026',tag:'finance',image:'',link:'https://dicoding.com/certificates/KEXLQKOVYPG2'}
 ];
 
 /* PROYEK. Ganti semua [YOUR ...]. Untuk tiap proyek:
