@@ -24,7 +24,7 @@ const C={
     LinkedIn:'https://www.linkedin.com/in/fatkhulbarrii/',
     GitHub:'https://github.com/FatkhulB',
     WhatsApp:'https://wa.me/6285198323402',
-    Instagram:'[YOUR URL]',
+    Instagram:'https://www.instagram.com/flbarri',
     Kaggle:'[YOUR URL]'
   }
 };
@@ -52,14 +52,15 @@ const CERT=[
    link  = link proyek (GitHub / dashboard / notebook). Kosong = buka halaman template.
    tags  = kata kunci filter: sql python excel dashboard explore academic personal */
 const P=[
- {title:'[YOUR PROJECT 1 TITLE]',type:'[YOUR CATEGORY]',year:'[YOUR YEAR]',tools:'[YOUR TOOLS]',desc:'[YOUR DESCRIPTION: pertanyaan, data, dan hasil singkat]',tags:'sql academic',image:'',link:''},
- {title:'[YOUR PROJECT 2 TITLE]',type:'[YOUR CATEGORY]',year:'[YOUR YEAR]',tools:'[YOUR TOOLS]',desc:'[YOUR DESCRIPTION]',tags:'python explore',image:'',link:''},
- {title:'[YOUR PROJECT 3 TITLE]',type:'[YOUR CATEGORY]',year:'[YOUR YEAR]',tools:'[YOUR TOOLS]',desc:'[YOUR DESCRIPTION]',tags:'excel personal',image:'',link:''}
+ {title:'CREATIVE DESIGN PROJECT',type:'Design Project',year:'2025',tools:'Canva, Figma',desc:'A collection of my creative design work defined by bold compositions, dynamic layouts, strong typography, and vibrant color palettes. My signature style blends energetic visuals with clean structure to create eye-catching banners, key visuals, and promotional assets that engage audiences.',tags:'design personal explore',image:'assets/projects/1.jpg',link:'https://canva.link/cng1zsi4jsuyj54'},
+ {title:'SNAKE GAME',type:'Game',year:'2025',tools:'HTML, CSS, JavaScript',desc:'A classic snake-eats-fruit game with a fresh twist. Customize snake skins, maps, and fruits, chase best scores saved locally, and enjoy vibrant eat animations with smooth responsive controls.',tags:'game',image:'assets/projects/2.jpg',link:'https://github.com/aleyya06/SnakeGame'},
+ {title:'COMING SOON',type:'New Project',year:'2026',tools:'Stay tuned',desc:'Something exciting is in the works. A new project is being crafted and will drop here soon — stay tuned.',tags:'coming',image:'',link:''},
+ {title:'COMING SOON',type:'New Project',year:'2026',tools:'Stay tuned',desc:'Another idea is taking shape behind the scenes. Fresh work is on the way — check back soon for the reveal.',tags:'coming',image:'',link:''}
 ];
 
 /* ---- Bagian di bawah ini jarang perlu diubah ---- */
 const MQ=['SQL','PYTHON','JAVA','EXCEL','GOOGLE SHEETS','FIGMA','CANVA','DATA SCIENCE','MATHEMATICS','ITS'];
 const FOCUS=[['SQL & Database Basics','SQL'],['Python Programming','Python'],['Mathematical & Quantitative Reasoning','Mathematics'],['Spreadsheet Analysis','Excel, Google Sheets'],['Visual Design & Content','Figma, Canva'],['Event & Team Coordination','Experience']];
 const PROC=[['Define','Clarify the question, audience, and success criteria.'],['Collect','Gather and inspect the available data.'],['Clean','Handle missing values, duplicates, and inconsistencies.'],['Analyze','Explore patterns and test assumptions.'],['Communicate','Turn findings into clear visuals and recommendations.']];
-const PF=[['All Projects','all'],['SQL','sql'],['Python','python'],['Excel','excel'],['Dashboard','dashboard'],['Exploratory','explore'],['Academic','academic'],['Personal','personal']];
+const PF=[['All Projects','all'],['Design','design'],['Game','game'],['SQL','sql'],['Python','python'],['Excel','excel'],['Dashboard','dashboard']];
 const CF=[['All','all'],['Data Science','data'],['SQL','sql'],['Python','python'],['Soft Skills','soft'],['Finance','finance'],['Other','other']];
