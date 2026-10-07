@@ -54,7 +54,7 @@ const CERT=[
 const P=[
  {title:'CREATIVE DESIGN PROJECT',type:'Design Project',year:'2025',tools:'Canva, Figma',desc:'A collection of my creative design work defined by bold compositions, dynamic layouts, strong typography, and vibrant color palettes. My signature style blends energetic visuals with clean structure to create eye-catching banners, key visuals, and promotional assets that engage audiences.',tags:'design personal explore',image:'assets/projects/1.jpg',link:'https://canva.link/cng1zsi4jsuyj54'},
  {title:'SNAKE GAME',type:'Game',year:'2025',tools:'HTML, CSS, JavaScript',desc:'A classic snake-eats-fruit game with a fresh twist. Customize snake skins, maps, and fruits, chase best scores saved locally, and enjoy vibrant eat animations with smooth responsive controls.',tags:'game',image:'assets/projects/2.jpg',link:'https://github.com/aleyya06/SnakeGame'},
- {title:'COMING SOON',type:'New Project',year:'2026',tools:'Stay tuned',desc:'Something exciting is in the works. A new project is being crafted and will drop here soon — stay tuned.',tags:'coming',image:'',link:''},
+ {title:'STONEBOUND',type:'Game',year:'2026',tools:'TypeScript, JavaScript, HTML, Firebase',desc:'A 2D pixel-art retro RPG with puzzle stages. Each stage has monsters to defeat — find the key, unlock the exit door, and beat the boss to advance to the next stage.',tags:'game',image:'assets/projects/3.jpg',link:'https://fatkhulb.github.io/StoneBound/'},
  {title:'COMING SOON',type:'New Project',year:'2026',tools:'Stay tuned',desc:'Another idea is taking shape behind the scenes. Fresh work is on the way — check back soon for the reveal.',tags:'coming',image:'',link:''}
 ];
 
