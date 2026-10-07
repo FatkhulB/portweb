@@ -25,7 +25,7 @@ const C={
     GitHub:'https://github.com/FatkhulB',
     WhatsApp:'https://wa.me/6285198323402',
     Instagram:'https://www.instagram.com/flbarri',
-    Kaggle:'[YOUR URL]'
+    Kaggle:'https://www.kaggle.com/flbarri'
   }
 };
 
